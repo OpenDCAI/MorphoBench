@@ -8,8 +8,8 @@ The MorphoBench dataset is available on Hugging Face: [OpenDCAI/MorphoBench](htt
 
 ```python
 from datasets import load_dataset
-
 dataset = load_dataset("OpenDCAI/MorphoBench")
+```
 
 # Acknowledgements
 
