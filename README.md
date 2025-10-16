@@ -6,7 +6,7 @@ MorphoBench is an adaptive reasoning benchmark for large-scale models. It curate
 
 Coming soon
 
-## 🪶 Acknowledgements
+# Acknowledgements
 
 This project adapts evaluation script logic from [Humanity's Last Exam](https://github.com/centerforaisafety/hle).
 
