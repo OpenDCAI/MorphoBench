@@ -1,0 +1,40 @@
+# -------------------------------
+# Project-specific ignore rules
+# -------------------------------
+
+# === Data files (not uploaded to GitHub) ===
+# Datasets can be large and versioned separately
+data/
+!data/README.md
+
+# === Output directories ===
+# Store evaluation results, inference logs, etc.
+output/
+!output/README.md
+
+# === Python cache and build files ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# === Temporary / log files ===
+*.log
+*.tmp
+*.bak
+*.swp
+
+# === Virtual environments ===
+.env
+.venv
+venv/
+ENV/
+
+# === IDE / editor settings ===
+.vscode/
+.idea/
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
