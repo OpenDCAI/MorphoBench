@@ -4,7 +4,12 @@ MorphoBench is an adaptive reasoning benchmark for large-scale models. It curate
 
 # Dataset
 
-Coming soon
+The MorphoBench dataset is available on Hugging Face: [OpenDCAI/MorphoBench](https://huggingface.co/datasets/OpenDCAI/MorphoBench)
+
+```python
+from datasets import load_dataset
+
+dataset = load_dataset("OpenDCAI/MorphoBench")
 
 # Acknowledgements
 
