@@ -15,8 +15,9 @@ from datasets import load_dataset
 dataset = load_dataset("OpenDCAI/MorphoBench")
 ```
 
-After downloading, create a data/ folder inside your local project directory and place the datasets there:
-、、、
+After downloading, create a `data/` folder inside your local project directory and place the datasets there:
+
+```
 MorphoBench/
 ├── adaption/
 ├── asset/
@@ -29,40 +30,45 @@ MorphoBench/
 ├── scripts/
 ├── output/
 └── ...
-、、、
+```
+
 # ⚙️ Usage
 
 ## Environment Setup
 
-、、、bash
+```bash
 cd Morphobench
 pip install -r requirements.txt
-、、、
+```
 
 ## Run Inference
 
 Generate model predictions for all datasets:
-、、、bash
+
+```bash
 bash scripts/run_batch.sh
-、、、
+```
 
 Predictions will be saved under:
-、、、
+
+```
 output/infer_result/
-、、、
+```
 
 ## Evaluate Results
 
 Evaluate the reasoning performance:
-、、、bash
+
+```bash
 bash scripts/evaluate_batch.sh
-、、、
+```
 
 Evaluation metrics will be stored in:
-、、、
+
+```
 output/eval_result/
-、、、
+```
+
 # 🙏 Acknowledgements
 
 This project adapts evaluation script logic from [Humanity's Last Exam](https://github.com/centerforaisafety/hle).
-
