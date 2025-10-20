@@ -1,6 +1,6 @@
 # MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning
 
-[![🤗 Dataset (Hugging Face)](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-HuggingFace-blue?style=flat-square)](https://huggingface.co/datasets/OpenDCAI/MorphoBench)
+[![🤗 Dataset (Hugging Face)](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-HuggingFace-yellow?style=flat-square)](https://huggingface.co/datasets/OpenDCAI/MorphoBench)
 [![📑 Paper (arXiv:2510.14265)](https://img.shields.io/badge/%F0%9F%93%91%20Paper-arXiv%3A2510.14265-red?style=flat-square)](https://arxiv.org/abs/2510.14265)
 
 > MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning
