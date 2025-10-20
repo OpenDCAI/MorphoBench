@@ -2,7 +2,7 @@
 
 ## MorphoBench
 
-[![Paper](https://img.shields.io/badge/Paper-Read-red?style=flat-square)](https://arxiv.org/abs/2510.14265)
+[![Paper](https://img.shields.io/badge/Paper-arxiv-red?style=flat-square)](https://arxiv.org/abs/2510.14265)
 [![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-blue?style=flat-square)](https://huggingface.co/datasets/OpenDCAI/MorphoBench)
 
 ![MorphoBench Overview](./asset/MorphoBench.jpg)
