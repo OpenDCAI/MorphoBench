@@ -81,4 +81,4 @@ The following figure summarizes the evaluation results on MorphoBench
 
 ## 🙏 Acknowledgements
 
-This project adapts evaluation script logic from [Humanity's Last Exam](https://github.com/centerforaisafety/hle).
+This repository adapts evaluation script from [Humanity's Last Exam](https://github.com/centerforaisafety/hle). We sincerely thank the authors for their valuable contributions to the research community.
