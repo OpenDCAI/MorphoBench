@@ -55,7 +55,7 @@ Predictions will be saved under:
 output/infer_result/
 ```
 
-## Evaluate Results
+## Evaluate Model Results
 
 Evaluate the reasoning performance:
 
@@ -68,6 +68,11 @@ Evaluation metrics will be stored in:
 ```
 output/eval_result/
 ```
+# 📊 Evaluation Results
+
+The following figure summarizes the evaluation results on MorphoBench
+
+![MorphoBench Evaluation Results](./asset/MorphoBench_evaluation_results.jpg)
 
 # 🙏 Acknowledgements
 
