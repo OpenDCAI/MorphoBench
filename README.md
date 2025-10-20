@@ -1,16 +1,15 @@
-**MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning**
-
 # 📣 Overview
 
-## MorphoBench
+**MorphoBench: A Benchmark with Difficulty Adaptive to Model Reasoning**  
 
-[🤗 Dataset (Hugging Face)](https://huggingface.co/datasets/OpenDCAI/MorphoBench)  
-[📑 Paper (arXiv:2510.14265)](https://arxiv.org/abs/2510.14265)
+[![🤗 Dataset (Hugging Face)](https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-HuggingFace-blue?style=flat-square)](https://huggingface.co/datasets/OpenDCAI/MorphoBench)
+[![📑 Paper (arXiv:2510.14265)](https://img.shields.io/badge/%F0%9F%93%91%20Paper-arXiv%3A2510.14265-red?style=flat-square)](https://arxiv.org/abs/2510.14265)
+
+## MorphoBench
 
 ![MorphoBench Overview](./asset/MorphoBench.jpg)
 
 MorphoBench is an adaptive reasoning benchmark for large-scale models. It curates over 1,300 multidisciplinary questions and dynamically adjusts task difficulty based on model reasoning traces, providing a scalable and reliable framework for evaluating the reasoning performance of advanced models like o3 and GPT-5.
-
 # 🎓 Dataset
 
 The MorphoBench dataset is available on Hugging Face: [OpenDCAI/MorphoBench](https://huggingface.co/datasets/OpenDCAI/MorphoBench)
