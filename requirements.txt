@@ -1,3 +1,11 @@
-numpy==1.26.4
-openai==1.57.0
-datasets==3.2.0
+# Core dependencies
+numpy>=1.26.0
+openai>=1.50.0
+datasets>=3.0.0
+
+# Environment and utilities
+python-dotenv>=1.0.0
+
+# Optional: for development
+# pytest>=7.0.0
+# black>=23.0.0

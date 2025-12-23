@@ -10,9 +10,10 @@ from tqdm.asyncio import tqdm_asyncio
 
 # ======= Configuration =======
 SYSTEM_PROMPT = (
+    "Show your reasoning process step by step, including intermediate deductions, equations, and logical justification.\n"
     "Your response should be in the following format:\n"
-    "Explanation: {your explanation for your answer choice}\n"
-    "Answer: {your chosen answer}\n"
+    "Reasoning: {your reasoning process for your answer choice}\n"
+    "Answer: {your final answer}\n"
     "Confidence: {your confidence score between 0% and 100% for your answer}"
 )
 
