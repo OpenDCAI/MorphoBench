@@ -104,9 +104,11 @@ def calib_err(confidence, correct, p='2', beta=100):
     bins = [[i * beta, (i + 1) * beta] for i in range(len(confidence) // beta)]
     if bins:
         bins[-1] = [bins[-1][0], len(confidence)]
+    elif len(confidence):
+        bins = [[0, len(confidence)]]
     cerr = 0
     total_examples = len(confidence)
-    for b in bins[:-1]:
+    for b in bins:
         bin_conf = confidence[b[0]:b[1]]
         bin_corr = correct[b[0]:b[1]]
         if len(bin_conf) == 0:
